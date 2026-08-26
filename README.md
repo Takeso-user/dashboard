@@ -28,7 +28,7 @@ A lightweight, modern dynamic **Roadmap Dashboard** built with **TypeScript**, *
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Node.js 24+)
 
 ### 1. Install Dependencies
 ```bash
