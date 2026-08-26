@@ -1,0 +1,364 @@
+{
+  "title": "Roadmap",
+  "description": "Project milestones, features, and delivery progress",
+  "columns": [
+    {
+      "id": "col_1",
+      "title": "Q1 - Foundation"
+    },
+    {
+      "id": "col_2",
+      "title": "Q2 - Core Features"
+    },
+    {
+      "id": "col_3",
+      "title": "Q3 - Scaling & Security"
+    },
+    {
+      "id": "col_4",
+      "title": "Q4 - Release & Polish"
+    },
+    {
+      "id": "col_1787775243254_cfh2",
+      "title": "Column 5"
+    },
+    {
+      "id": "col_1787775533973_jdmd",
+      "title": "Column 6"
+    },
+    {
+      "id": "col_1787775612565_4sb9",
+      "title": "Column 7"
+    }
+  ],
+  "rows": [
+    {
+      "id": "row_1",
+      "title": "AMH",
+      "category": "qa",
+      "cells": {
+        "col_1": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_2": {
+          "type": "active",
+          "checked": true,
+          "percentage": 100
+        },
+        "col_3": {
+          "type": "active",
+          "checked": false,
+          "percentage": 40
+        },
+        "col_4": {
+          "type": "na"
+        },
+        "col_1787775243254_cfh2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775533973_jdmd": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775612565_4sb9": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        }
+      }
+    },
+    {
+      "id": "row_2",
+      "title": "HASE",
+      "category": "QA",
+      "cells": {
+        "col_1": {
+          "type": "active",
+          "checked": true,
+          "percentage": 100
+        },
+        "col_2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 75
+        },
+        "col_3": {
+          "type": "active",
+          "checked": false,
+          "percentage": 20
+        },
+        "col_4": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775243254_cfh2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775533973_jdmd": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775612565_4sb9": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        }
+      }
+    },
+    {
+      "id": "row_3",
+      "title": "HASE",
+      "category": "PREPROD",
+      "cells": {
+        "col_1": {
+          "type": "na"
+        },
+        "col_2": {
+          "type": "active",
+          "checked": true,
+          "percentage": 100
+        },
+        "col_3": {
+          "type": "active",
+          "checked": false,
+          "percentage": 60
+        },
+        "col_4": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775243254_cfh2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775533973_jdmd": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775612565_4sb9": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        }
+      }
+    },
+    {
+      "id": "row_4",
+      "title": "INDIA",
+      "category": "QA",
+      "cells": {
+        "col_1": {
+          "type": "na"
+        },
+        "col_2": {
+          "type": "na"
+        },
+        "col_3": {
+          "type": "active",
+          "checked": false,
+          "percentage": 30
+        },
+        "col_4": {
+          "type": "active",
+          "checked": false,
+          "percentage": 10
+        },
+        "col_1787775243254_cfh2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775533973_jdmd": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775612565_4sb9": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        }
+      }
+    },
+    {
+      "id": "row_1787775243301_p0y2",
+      "title": "APST",
+      "category": "QA",
+      "cells": {
+        "col_1": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_3": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_4": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775243254_cfh2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775533973_jdmd": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775612565_4sb9": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        }
+      }
+    },
+    {
+      "id": "row_1787775534004_rv7p",
+      "title": "UK",
+      "category": "QA",
+      "cells": {
+        "col_1": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_3": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_4": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775243254_cfh2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775533973_jdmd": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775612565_4sb9": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        }
+      }
+    },
+    {
+      "id": "row_1787775609689_qhmm",
+      "title": "APNM",
+      "category": "QA",
+      "cells": {
+        "col_1": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_3": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_4": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775243254_cfh2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775533973_jdmd": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775612565_4sb9": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        }
+      }
+    },
+    {
+      "id": "row_1787775748077_x699",
+      "title": "US",
+      "category": "qa",
+      "cells": {
+        "col_1": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_3": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_4": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775243254_cfh2": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775533973_jdmd": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        },
+        "col_1787775612565_4sb9": {
+          "type": "active",
+          "checked": false,
+          "percentage": 0
+        }
+      }
+    }
+  ]
+}

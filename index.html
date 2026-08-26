@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roadmap - Interactive Project Dashboard</title>
+  <meta name="description" content="Lightweight dynamic Roadmap dashboard with JSON database persistence, customizable columns and rows, and Jira-like cell tracking.">
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header Section -->
+    <header class="roadmap-header">
+      <div class="header-left">
+        <div class="title-badge-row">
+          <h1 class="roadmap-title" id="main-roadmap-title">
+            <span class="jira-icon">🗺️</span> Roadmap
+          </h1>
+        </div>
+        <p class="roadmap-subtitle" id="roadmap-subtitle">Interactive Project Milestones & Delivery Dashboard</p>
+      </div>
+
+      <!-- Metrics summary cards -->
+      <div class="header-metrics">
+        <div class="metric-card">
+          <span class="metric-label">Overall Progress</span>
+          <span class="metric-value" id="metric-overall-pct">0%</span>
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill" id="progress-bar-fill" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <span class="metric-label">Tasks Completed</span>
+          <span class="metric-value" id="metric-completed-count">0 / 0</span>
+        </div>
+
+        <div class="metric-card">
+          <span class="metric-label">Tracks / Rows</span>
+          <span class="metric-value" id="metric-rows-count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Toolbar Section -->
+    <section class="toolbar-section">
+      <div class="toolbar-left">
+        <button id="btn-toggle-edit" class="btn btn-toggle" title="Toggle between Edit Mode and Locked View Mode">
+          <span class="toggle-indicator"></span>
+          <span id="edit-toggle-label">Edit Table Structure</span>
+        </button>
+
+        <button id="btn-add-col" class="btn btn-secondary edit-only" title="Add new column to roadmap">
+          ➕ Add Column
+        </button>
+
+        <button id="btn-add-row" class="btn btn-secondary edit-only" title="Add new row/track to roadmap">
+          ➕ Add Row
+        </button>
+      </div>
+
+      <div class="toolbar-right">
+        <button id="btn-save-db" class="btn btn-primary" title="Save current state to JSON database">
+          💾 Save to JSON
+        </button>
+
+        <button id="btn-export-json" class="btn btn-secondary" title="Export as JSON file">
+          📥 Export
+        </button>
+
+        <label for="input-import-json" class="btn btn-secondary" style="cursor: pointer;" title="Import from JSON file">
+          📤 Import
+          <input type="file" id="input-import-json" accept=".json" style="display: none;">
+        </label>
+
+        <button id="btn-reset-demo" class="btn btn-secondary" title="Reset to sample demo data">
+          🔄 Reset Demo
+        </button>
+      </div>
+    </section>
+
+    <!-- Roadmap Interactive Table -->
+    <main class="table-wrapper">
+      <table class="roadmap-table" id="roadmap-table">
+        <thead>
+          <tr id="roadmap-table-header">
+            <!-- Headers generated dynamically -->
+          </tr>
+        </thead>
+        <tbody id="roadmap-table-body">
+          <!-- Rows generated dynamically -->
+        </tbody>
+      </table>
+
+      <!-- Bottom Add Row Action (Edit Mode) -->
+      <div class="table-bottom-bar edit-only">
+        <button id="btn-add-row-bottom" class="add-row-btn">
+          ➕ Add New Feature Track / Row
+        </button>
+      </div>
+    </main>
+
+    <!-- Hints and Guide Footer -->
+    <footer class="hints-row">
+      <div class="hint-item">
+        <span class="hint-key">Left Click</span>
+        <span>Toggle Checkbox (100% / 0%)</span>
+      </div>
+      <div class="hint-item">
+        <span class="hint-key">Click % Badge</span>
+        <span>Quickly adjust progress percentage</span>
+      </div>
+      <div class="hint-item">
+        <span class="hint-key">Right Click</span>
+        <span>Toggle cell to <strong>n/a</strong> or restore</span>
+      </div>
+      <div class="hint-item">
+        <span class="hint-key">Edit Mode</span>
+        <span>Rename, add, or remove columns & rows</span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <script type="module" src="/src/app.ts"></script>
+</body>
+</html>

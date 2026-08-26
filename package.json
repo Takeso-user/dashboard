@@ -1,0 +1,28 @@
+{
+  "name": "roadmap-dashboard",
+  "version": "1.0.0",
+  "description": "Lightweight dynamic Roadmap dashboard with JSON persistence, TypeScript, and Playwright tests",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "server": "tsx server.ts",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.3",
+    "typescript": "^7.0.2",
+    "vite": "^6.1.1"
+  }
+}
