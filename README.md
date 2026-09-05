@@ -31,17 +31,21 @@ A lightweight, modern dynamic **Roadmap Dashboard** built with **TypeScript**, *
 ## 🚀 Quick Start (Node.js 24+)
 
 ### 1. Install Dependencies
+
 ```bash
 npm install
 ```
 
 ### 2. Run Dev Server
+
 ```bash
 npm run dev
 ```
+
 Open `http://localhost:5173` in your browser.
 
 ### 3. Build & Run Standalone Server
+
 ```bash
 npm run build
 npm run server
@@ -52,16 +56,19 @@ npm run server
 ## 🧪 Running Playwright Tests
 
 Make sure Playwright browsers are installed:
+
 ```bash
 npx playwright install chromium
 ```
 
 Run tests in headless mode:
+
 ```bash
 npm test
 ```
 
 Run tests in interactive UI mode:
+
 ```bash
 npm run test:ui
 ```
@@ -92,9 +99,9 @@ npm run test:ui
 
 ## 🖱️ Cell Shortcuts & Interactions
 
-| Action | Result |
-| :--- | :--- |
-| **Left-Click Checkbox** | Toggle between 100% (complete) and 0% (unstarted) |
-| **Click % Badge** | Open percentage quick-selector (`0%`, `25%`, `50%`, `75%`, `100%`) |
-| **Right-Click Cell** | Switch cell to `N/A` or restore back to active |
-| **Toggle Edit Mode** | Unlock / Lock column and row structural editing |
+| Action                  | Result                                                             |
+| :---------------------- | :----------------------------------------------------------------- |
+| **Left-Click Checkbox** | Toggle between 100% (complete) and 0% (unstarted)                  |
+| **Click % Badge**       | Open percentage quick-selector (`0%`, `25%`, `50%`, `75%`, `100%`) |
+| **Right-Click Cell**    | Switch cell to `N/A` or restore back to active                     |
+| **Toggle Edit Mode**    | Unlock / Lock column and row structural editing                    |

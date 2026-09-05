@@ -53,7 +53,7 @@ body {
   color: var(--text-primary);
   min-height: 100vh;
   line-height: 1.5;
-  overflow-x: hidden;
+  overflow-x: auto;
   background-image: 
     radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.12) 0px, transparent 50%),
     radial-gradient(at 100% 100%, rgba(59, 130, 246, 0.08) 0px, transparent 50%);
@@ -61,8 +61,9 @@ body {
 }
 
 .app-container {
-  max-width: 1600px;
-  margin: 0 auto;
+  width: max-content;
+  min-width: 100%;
+  margin: 0;
   padding: 2rem 2.5rem;
   display: flex;
   flex-direction: column;
@@ -291,8 +292,8 @@ body {
   border-radius: var(--radius-lg);
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow-lg);
-  overflow-x: auto;
-  max-width: 100%;
+  overflow: visible;
+  width: 100%;
 }
 
 .roadmap-table {
